@@ -11,5 +11,10 @@ void main() {
   print(name?.toUpperCase());
   print(name?.toLowerCase());
 
+  print("enter your birthdate:");
+  var birthyear = num.parse(stdin.readLineSync()!);
 
+  var age = 2024 - birthyear;
+  print(age);
 }
+ 
