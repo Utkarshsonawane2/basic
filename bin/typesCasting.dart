@@ -18,7 +18,7 @@ void main() {
   print(' b types is ${b.runtimeType} types ');
 
   print("String TO int, double any type changed the number to string ");
-  var num1 = '3456';
+  var num1 = '8';
   int num2 = int.parse(num1);
   print(num2.runtimeType);
   print(num2);
