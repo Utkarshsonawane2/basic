@@ -14,7 +14,6 @@ void main() {
   print("enter your birthdate:");
   var birthyear = num.parse(stdin.readLineSync()!);
 
-  var age = 2024 - birthyear;
+  var age = DateTime.now().year - birthyear;
   print(age);
 }
- 
